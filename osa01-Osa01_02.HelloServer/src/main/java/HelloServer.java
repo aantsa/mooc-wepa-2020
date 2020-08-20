@@ -11,13 +11,13 @@ public class HelloServer {
 
     public static void main(String[] args) throws Exception {
         ServerSocket server = new ServerSocket(8080);
-        System.out.println("Syötä osoite: ");
+        System.out.println("Insert an address: ");
         
         while (true) {
-        // odotetaan pyyntöä
+        // waiting for the request
         Socket socket = server.accept();
             
-        // luetaan pyyntö
+        // read the request
         Scanner reader = new Scanner(socket.getInputStream());      
         String next = reader.nextLine();
         
@@ -25,7 +25,7 @@ public class HelloServer {
             break;
         }
        
-        // kirjoitetaan vastaus
+        // writing the answer
         PrintWriter writer = new PrintWriter(socket.getOutputStream());
         writer.println("HTTP/1.1 200 OK");
         writer.println("");
@@ -39,7 +39,7 @@ public class HelloServer {
 
         }
         writer.flush();
-        // vapautetaan resurssit
+        // free the resources
         reader.close();
         writer.close();
         socket.close();

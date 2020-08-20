@@ -8,23 +8,23 @@ public class HelloBrowser {
     public static void main(String[] args) throws Exception {
         System.out.println("Where to?");
         Scanner input = new Scanner(System.in);
-        String osoite = input.nextLine();
-        int portti = 80;
+        String address = input.nextLine();
+        int gate = 80;
         
-        //muodosta yhteys
-        Socket socket = new Socket(osoite, portti);
+        //Create connection
+        Socket socket = new Socket(address, gate);
         
-        //lähetä viesti palvelimelle
-        PrintWriter kirjoittaja = new PrintWriter(socket.getOutputStream());
-        kirjoittaja.println("GET / HTTP/1.1");
-        kirjoittaja.println("Host: " + osoite);
-        kirjoittaja.println();
-        kirjoittaja.flush();
+        //Send message to the server
+        PrintWriter writer = new PrintWriter(socket.getOutputStream());
+        writer.println("GET / HTTP/1.1");
+        writer.println("Host: " + address);
+        writer.println();
+        writer.flush();
         
-        // lue vastaus palvelimelta
-        Scanner lukija = new Scanner(socket.getInputStream());
-        while (lukija.hasNextLine()){
-            System.out.println(lukija.nextLine());
+        // Read the answer from the server
+        Scanner reader = new Scanner(socket.getInputStream());
+        while (reader.hasNextLine()){
+            System.out.println(reader.nextLine());
         }
         
     }

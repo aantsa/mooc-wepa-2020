@@ -9,17 +9,17 @@ public class HelloRedirectLoop {
     public static void main(String[] args) throws Exception {
         ServerSocket server = new ServerSocket(8080);
         while (true) {
-        // odotetaan pyyntöä
+        // waiting for the request
         Socket socket = server.accept();
             
-        // luetaan pyyntö
+        //read the request
         Scanner reader = new Scanner(socket.getInputStream());      
         String next = reader.nextLine();
         
         if(next.contains("/quit")){
             break;
         }
-      
+        //writing the answer
         PrintWriter writer = new PrintWriter(socket.getOutputStream());
         writer.println("HTTP/1.1 302 Found");
         writer.println("Location: http://localhost:8080/");
