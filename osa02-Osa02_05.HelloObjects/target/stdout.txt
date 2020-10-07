@@ -1,0 +1,1012 @@
+18:07:10.587 [TestRunner thread] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class helloobjects.HelloObjectsTest]
+18:07:10.600 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:07:10.614 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:07:10.687 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [helloobjects.HelloObjectsTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:07:10.706 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [helloobjects.HelloObjectsTest], using SpringBootContextLoader
+18:07:10.711 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [helloobjects.HelloObjectsTest]: class path resource [helloobjects/HelloObjectsTest-context.xml] does not exist
+18:07:10.712 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [helloobjects.HelloObjectsTest]: class path resource [helloobjects/HelloObjectsTestContext.groovy] does not exist
+18:07:10.712 [TestRunner thread] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [helloobjects.HelloObjectsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:07:10.713 [TestRunner thread] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [helloobjects.HelloObjectsTest]: HelloObjectsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:07:10.798 [TestRunner thread] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [helloobjects.HelloObjectsTest]
+18:07:10.905 [TestRunner thread] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\anton\Documents\NetBeansProjects\mooc-wepa-2020\osa02-Osa02_05.HelloObjects\target\classes\helloobjects\HelloObjectsApplication.class]
+18:07:10.915 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration helloobjects.HelloObjectsApplication for test class helloobjects.HelloObjectsTest
+18:07:11.075 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [helloobjects.HelloObjectsTest]: using defaults.
+18:07:11.076 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:07:11.097 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+18:07:11.098 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:07:11.099 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e12c22d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1f436a90, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@39600734, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@535df208, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2ba651e4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2f35b9ea, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@16d5429f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2aa42fff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3314723e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@316c775f]
+18:07:11.104 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [helloobjects.HelloObjectsTest]
+18:07:11.105 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [helloobjects.HelloObjectsTest]
+18:07:11.105 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [helloobjects.HelloObjectsTest]
+18:07:11.105 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [helloobjects.HelloObjectsTest]
+18:07:11.111 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@308a93ac testClass = HelloObjectsTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@d3d3c97 testClass = HelloObjectsTest, locations = '{}', classes = '{class helloobjects.HelloObjectsApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3ff4ebb0, [ImportsContextCustomizer@66ee5ccc key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6648c8bc, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@545cf42f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2ad2d2af], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+18:07:11.112 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [helloobjects.HelloObjectsTest]
+18:07:11.112 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [helloobjects.HelloObjectsTest]
+18:07:11.152 [TestRunner thread] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.3.RELEASE)
+
+2020-09-29 18:07:11.599  INFO 21136 --- [stRunner thread] helloobjects.HelloObjectsTest            : Starting HelloObjectsTest on DESKTOP-3V8UVI1 with PID 21136 (started by anton in C:\Users\anton\Documents\NetBeansProjects\mooc-wepa-2020\osa02-Osa02_05.HelloObjects)
+2020-09-29 18:07:11.602  INFO 21136 --- [stRunner thread] helloobjects.HelloObjectsTest            : No active profile set, falling back to default profiles: default
+2020-09-29 18:07:13.653  INFO 21136 --- [stRunner thread] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 18:07:13.955  INFO 21136 --- [stRunner thread] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-29 18:07:14.180  INFO 21136 --- [stRunner thread] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-09-29 18:07:14.180  INFO 21136 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-09-29 18:07:14.195  INFO 21136 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 15 ms
+2020-09-29 18:07:14.227  INFO 21136 --- [stRunner thread] helloobjects.HelloObjectsTest            : Started HelloObjectsTest in 3.061 seconds (JVM running for 4.318)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloobjects.HelloObjectsController
+           Method = public java.lang.String helloobjects.HelloObjectsController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = lista
+            value = [Item(name=Wizard hat, type=pointy), Item(name=NAME: 637eedd5-6684-4574-977b-10b462f379ed, type=TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11)]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- lisää toiminnallisuus listalla olevien esineiden listaamiseen -->
+
+        <ol>
+            <li>
+                <span>Wizard hat</span>
+                <span>pointy</span>
+            </li>
+            <li>
+                <span>NAME: 637eedd5-6684-4574-977b-10b462f379ed</span>
+                <span>TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11</span>
+            </li>
+        </ol>
+
+        <!-- Älä koske alla olevaan lomakkeeseen, tutustumme 
+        tiedon lisäämiseen hieman myöhemmin -->
+        <h2>Add item</h2>
+
+        <form action="/" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-09-29 18:07:15.472  INFO 21136 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [helloobjects.HelloObjectsTest], using SpringBootContextLoader
+2020-09-29 18:07:15.473  INFO 21136 --- [stRunner thread] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [helloobjects.HelloObjectsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-09-29 18:07:15.474  INFO 21136 --- [stRunner thread] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [helloobjects.HelloObjectsTest]: HelloObjectsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-09-29 18:07:15.478  INFO 21136 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration helloobjects.HelloObjectsApplication for test class helloobjects.HelloObjectsTest
+2020-09-29 18:07:15.480  INFO 21136 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-09-29 18:07:15.481  INFO 21136 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@b6277be, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@321ae19d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2d44e150, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@643bd423, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7c7c809d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@198f8086, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@13cbac86, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@29ebf810, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@318bfdd8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5465d0df]
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloobjects.HelloObjectsController
+           Method = public java.lang.String helloobjects.HelloObjectsController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = lista
+            value = [Item(name=Wizard hat, type=pointy), Item(name=NAME: 637eedd5-6684-4574-977b-10b462f379ed, type=TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11), Item(name=NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10, type=TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6)]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- lisää toiminnallisuus listalla olevien esineiden listaamiseen -->
+
+        <ol>
+            <li>
+                <span>Wizard hat</span>
+                <span>pointy</span>
+            </li>
+            <li>
+                <span>NAME: 637eedd5-6684-4574-977b-10b462f379ed</span>
+                <span>TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11</span>
+            </li>
+            <li>
+                <span>NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10</span>
+                <span>TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6</span>
+            </li>
+        </ol>
+
+        <!-- Älä koske alla olevaan lomakkeeseen, tutustumme 
+        tiedon lisäämiseen hieman myöhemmin -->
+        <h2>Add item</h2>
+
+        <form action="/" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloobjects.HelloObjectsController
+           Method = public java.lang.String helloobjects.HelloObjectsController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = lista
+            value = [Item(name=Wizard hat, type=pointy), Item(name=NAME: 637eedd5-6684-4574-977b-10b462f379ed, type=TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11), Item(name=NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10, type=TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6), Item(name=NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f, type=TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9)]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- lisää toiminnallisuus listalla olevien esineiden listaamiseen -->
+
+        <ol>
+            <li>
+                <span>Wizard hat</span>
+                <span>pointy</span>
+            </li>
+            <li>
+                <span>NAME: 637eedd5-6684-4574-977b-10b462f379ed</span>
+                <span>TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11</span>
+            </li>
+            <li>
+                <span>NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10</span>
+                <span>TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6</span>
+            </li>
+            <li>
+                <span>NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f</span>
+                <span>TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9</span>
+            </li>
+        </ol>
+
+        <!-- Älä koske alla olevaan lomakkeeseen, tutustumme 
+        tiedon lisäämiseen hieman myöhemmin -->
+        <h2>Add item</h2>
+
+        <form action="/" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloobjects.HelloObjectsController
+           Method = public java.lang.String helloobjects.HelloObjectsController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = lista
+            value = [Item(name=Wizard hat, type=pointy), Item(name=NAME: 637eedd5-6684-4574-977b-10b462f379ed, type=TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11), Item(name=NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10, type=TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6), Item(name=NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f, type=TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9), Item(name=NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52, type=TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043)]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- lisää toiminnallisuus listalla olevien esineiden listaamiseen -->
+
+        <ol>
+            <li>
+                <span>Wizard hat</span>
+                <span>pointy</span>
+            </li>
+            <li>
+                <span>NAME: 637eedd5-6684-4574-977b-10b462f379ed</span>
+                <span>TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11</span>
+            </li>
+            <li>
+                <span>NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10</span>
+                <span>TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6</span>
+            </li>
+            <li>
+                <span>NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f</span>
+                <span>TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9</span>
+            </li>
+            <li>
+                <span>NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52</span>
+                <span>TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043</span>
+            </li>
+        </ol>
+
+        <!-- Älä koske alla olevaan lomakkeeseen, tutustumme 
+        tiedon lisäämiseen hieman myöhemmin -->
+        <h2>Add item</h2>
+
+        <form action="/" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloobjects.HelloObjectsController
+           Method = public java.lang.String helloobjects.HelloObjectsController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = lista
+            value = [Item(name=Wizard hat, type=pointy), Item(name=NAME: 637eedd5-6684-4574-977b-10b462f379ed, type=TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11), Item(name=NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10, type=TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6), Item(name=NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f, type=TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9), Item(name=NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52, type=TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043), Item(name=NAME: f571d42b-b3ab-489d-9564-901c993f7a48, type=TYPE: 125663aa-4079-4637-be84-9e1d83599708)]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- lisää toiminnallisuus listalla olevien esineiden listaamiseen -->
+
+        <ol>
+            <li>
+                <span>Wizard hat</span>
+                <span>pointy</span>
+            </li>
+            <li>
+                <span>NAME: 637eedd5-6684-4574-977b-10b462f379ed</span>
+                <span>TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11</span>
+            </li>
+            <li>
+                <span>NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10</span>
+                <span>TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6</span>
+            </li>
+            <li>
+                <span>NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f</span>
+                <span>TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9</span>
+            </li>
+            <li>
+                <span>NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52</span>
+                <span>TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043</span>
+            </li>
+            <li>
+                <span>NAME: f571d42b-b3ab-489d-9564-901c993f7a48</span>
+                <span>TYPE: 125663aa-4079-4637-be84-9e1d83599708</span>
+            </li>
+        </ol>
+
+        <!-- Älä koske alla olevaan lomakkeeseen, tutustumme 
+        tiedon lisäämiseen hieman myöhemmin -->
+        <h2>Add item</h2>
+
+        <form action="/" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloobjects.HelloObjectsController
+           Method = public java.lang.String helloobjects.HelloObjectsController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = lista
+            value = [Item(name=Wizard hat, type=pointy), Item(name=NAME: 637eedd5-6684-4574-977b-10b462f379ed, type=TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11), Item(name=NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10, type=TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6), Item(name=NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f, type=TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9), Item(name=NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52, type=TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043), Item(name=NAME: f571d42b-b3ab-489d-9564-901c993f7a48, type=TYPE: 125663aa-4079-4637-be84-9e1d83599708), Item(name=NAME: e0889b54-e95a-46fc-a986-5ce337bf359c, type=TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45)]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- lisää toiminnallisuus listalla olevien esineiden listaamiseen -->
+
+        <ol>
+            <li>
+                <span>Wizard hat</span>
+                <span>pointy</span>
+            </li>
+            <li>
+                <span>NAME: 637eedd5-6684-4574-977b-10b462f379ed</span>
+                <span>TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11</span>
+            </li>
+            <li>
+                <span>NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10</span>
+                <span>TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6</span>
+            </li>
+            <li>
+                <span>NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f</span>
+                <span>TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9</span>
+            </li>
+            <li>
+                <span>NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52</span>
+                <span>TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043</span>
+            </li>
+            <li>
+                <span>NAME: f571d42b-b3ab-489d-9564-901c993f7a48</span>
+                <span>TYPE: 125663aa-4079-4637-be84-9e1d83599708</span>
+            </li>
+            <li>
+                <span>NAME: e0889b54-e95a-46fc-a986-5ce337bf359c</span>
+                <span>TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45</span>
+            </li>
+        </ol>
+
+        <!-- Älä koske alla olevaan lomakkeeseen, tutustumme 
+        tiedon lisäämiseen hieman myöhemmin -->
+        <h2>Add item</h2>
+
+        <form action="/" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloobjects.HelloObjectsController
+           Method = public java.lang.String helloobjects.HelloObjectsController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = lista
+            value = [Item(name=Wizard hat, type=pointy), Item(name=NAME: 637eedd5-6684-4574-977b-10b462f379ed, type=TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11), Item(name=NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10, type=TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6), Item(name=NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f, type=TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9), Item(name=NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52, type=TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043), Item(name=NAME: f571d42b-b3ab-489d-9564-901c993f7a48, type=TYPE: 125663aa-4079-4637-be84-9e1d83599708), Item(name=NAME: e0889b54-e95a-46fc-a986-5ce337bf359c, type=TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45)]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- lisää toiminnallisuus listalla olevien esineiden listaamiseen -->
+
+        <ol>
+            <li>
+                <span>Wizard hat</span>
+                <span>pointy</span>
+            </li>
+            <li>
+                <span>NAME: 637eedd5-6684-4574-977b-10b462f379ed</span>
+                <span>TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11</span>
+            </li>
+            <li>
+                <span>NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10</span>
+                <span>TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6</span>
+            </li>
+            <li>
+                <span>NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f</span>
+                <span>TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9</span>
+            </li>
+            <li>
+                <span>NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52</span>
+                <span>TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043</span>
+            </li>
+            <li>
+                <span>NAME: f571d42b-b3ab-489d-9564-901c993f7a48</span>
+                <span>TYPE: 125663aa-4079-4637-be84-9e1d83599708</span>
+            </li>
+            <li>
+                <span>NAME: e0889b54-e95a-46fc-a986-5ce337bf359c</span>
+                <span>TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45</span>
+            </li>
+        </ol>
+
+        <!-- Älä koske alla olevaan lomakkeeseen, tutustumme 
+        tiedon lisäämiseen hieman myöhemmin -->
+        <h2>Add item</h2>
+
+        <form action="/" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloobjects.HelloObjectsController
+           Method = public java.lang.String helloobjects.HelloObjectsController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = lista
+            value = [Item(name=Wizard hat, type=pointy), Item(name=NAME: 637eedd5-6684-4574-977b-10b462f379ed, type=TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11), Item(name=NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10, type=TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6), Item(name=NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f, type=TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9), Item(name=NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52, type=TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043), Item(name=NAME: f571d42b-b3ab-489d-9564-901c993f7a48, type=TYPE: 125663aa-4079-4637-be84-9e1d83599708), Item(name=NAME: e0889b54-e95a-46fc-a986-5ce337bf359c, type=TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45)]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- lisää toiminnallisuus listalla olevien esineiden listaamiseen -->
+
+        <ol>
+            <li>
+                <span>Wizard hat</span>
+                <span>pointy</span>
+            </li>
+            <li>
+                <span>NAME: 637eedd5-6684-4574-977b-10b462f379ed</span>
+                <span>TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11</span>
+            </li>
+            <li>
+                <span>NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10</span>
+                <span>TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6</span>
+            </li>
+            <li>
+                <span>NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f</span>
+                <span>TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9</span>
+            </li>
+            <li>
+                <span>NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52</span>
+                <span>TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043</span>
+            </li>
+            <li>
+                <span>NAME: f571d42b-b3ab-489d-9564-901c993f7a48</span>
+                <span>TYPE: 125663aa-4079-4637-be84-9e1d83599708</span>
+            </li>
+            <li>
+                <span>NAME: e0889b54-e95a-46fc-a986-5ce337bf359c</span>
+                <span>TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45</span>
+            </li>
+        </ol>
+
+        <!-- Älä koske alla olevaan lomakkeeseen, tutustumme 
+        tiedon lisäämiseen hieman myöhemmin -->
+        <h2>Add item</h2>
+
+        <form action="/" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloobjects.HelloObjectsController
+           Method = public java.lang.String helloobjects.HelloObjectsController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = lista
+            value = [Item(name=Wizard hat, type=pointy), Item(name=NAME: 637eedd5-6684-4574-977b-10b462f379ed, type=TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11), Item(name=NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10, type=TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6), Item(name=NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f, type=TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9), Item(name=NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52, type=TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043), Item(name=NAME: f571d42b-b3ab-489d-9564-901c993f7a48, type=TYPE: 125663aa-4079-4637-be84-9e1d83599708), Item(name=NAME: e0889b54-e95a-46fc-a986-5ce337bf359c, type=TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45)]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- lisää toiminnallisuus listalla olevien esineiden listaamiseen -->
+
+        <ol>
+            <li>
+                <span>Wizard hat</span>
+                <span>pointy</span>
+            </li>
+            <li>
+                <span>NAME: 637eedd5-6684-4574-977b-10b462f379ed</span>
+                <span>TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11</span>
+            </li>
+            <li>
+                <span>NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10</span>
+                <span>TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6</span>
+            </li>
+            <li>
+                <span>NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f</span>
+                <span>TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9</span>
+            </li>
+            <li>
+                <span>NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52</span>
+                <span>TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043</span>
+            </li>
+            <li>
+                <span>NAME: f571d42b-b3ab-489d-9564-901c993f7a48</span>
+                <span>TYPE: 125663aa-4079-4637-be84-9e1d83599708</span>
+            </li>
+            <li>
+                <span>NAME: e0889b54-e95a-46fc-a986-5ce337bf359c</span>
+                <span>TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45</span>
+            </li>
+        </ol>
+
+        <!-- Älä koske alla olevaan lomakkeeseen, tutustumme 
+        tiedon lisäämiseen hieman myöhemmin -->
+        <h2>Add item</h2>
+
+        <form action="/" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloobjects.HelloObjectsController
+           Method = public java.lang.String helloobjects.HelloObjectsController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = lista
+            value = [Item(name=Wizard hat, type=pointy), Item(name=NAME: 637eedd5-6684-4574-977b-10b462f379ed, type=TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11), Item(name=NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10, type=TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6), Item(name=NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f, type=TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9), Item(name=NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52, type=TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043), Item(name=NAME: f571d42b-b3ab-489d-9564-901c993f7a48, type=TYPE: 125663aa-4079-4637-be84-9e1d83599708), Item(name=NAME: e0889b54-e95a-46fc-a986-5ce337bf359c, type=TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45)]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- lisää toiminnallisuus listalla olevien esineiden listaamiseen -->
+
+        <ol>
+            <li>
+                <span>Wizard hat</span>
+                <span>pointy</span>
+            </li>
+            <li>
+                <span>NAME: 637eedd5-6684-4574-977b-10b462f379ed</span>
+                <span>TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11</span>
+            </li>
+            <li>
+                <span>NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10</span>
+                <span>TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6</span>
+            </li>
+            <li>
+                <span>NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f</span>
+                <span>TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9</span>
+            </li>
+            <li>
+                <span>NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52</span>
+                <span>TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043</span>
+            </li>
+            <li>
+                <span>NAME: f571d42b-b3ab-489d-9564-901c993f7a48</span>
+                <span>TYPE: 125663aa-4079-4637-be84-9e1d83599708</span>
+            </li>
+            <li>
+                <span>NAME: e0889b54-e95a-46fc-a986-5ce337bf359c</span>
+                <span>TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45</span>
+            </li>
+        </ol>
+
+        <!-- Älä koske alla olevaan lomakkeeseen, tutustumme 
+        tiedon lisäämiseen hieman myöhemmin -->
+        <h2>Add item</h2>
+
+        <form action="/" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloobjects.HelloObjectsController
+           Method = public java.lang.String helloobjects.HelloObjectsController.home(org.springframework.ui.Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = lista
+            value = [Item(name=Wizard hat, type=pointy), Item(name=NAME: 637eedd5-6684-4574-977b-10b462f379ed, type=TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11), Item(name=NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10, type=TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6), Item(name=NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f, type=TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9), Item(name=NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52, type=TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043), Item(name=NAME: f571d42b-b3ab-489d-9564-901c993f7a48, type=TYPE: 125663aa-4079-4637-be84-9e1d83599708), Item(name=NAME: e0889b54-e95a-46fc-a986-5ce337bf359c, type=TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45)]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Items</h1>
+
+        <!-- lisää toiminnallisuus listalla olevien esineiden listaamiseen -->
+
+        <ol>
+            <li>
+                <span>Wizard hat</span>
+                <span>pointy</span>
+            </li>
+            <li>
+                <span>NAME: 637eedd5-6684-4574-977b-10b462f379ed</span>
+                <span>TYPE: 50bf96ab-50a8-4314-95c2-10859a8bcd11</span>
+            </li>
+            <li>
+                <span>NAME: 31b0d21a-77c0-490a-820c-05af76e0ac10</span>
+                <span>TYPE: c99e72fb-11e1-447b-a205-c8412172f9b6</span>
+            </li>
+            <li>
+                <span>NAME: 37c45be6-4ca5-46fe-9ced-1d79325d8b1f</span>
+                <span>TYPE: b7d4175c-9bc8-4092-a0a2-f596d01241a9</span>
+            </li>
+            <li>
+                <span>NAME: a0be1c29-6f8a-4f82-85bb-e8038f0b5d52</span>
+                <span>TYPE: 32a05408-0cb7-400c-bd96-bf8bf7c79043</span>
+            </li>
+            <li>
+                <span>NAME: f571d42b-b3ab-489d-9564-901c993f7a48</span>
+                <span>TYPE: 125663aa-4079-4637-be84-9e1d83599708</span>
+            </li>
+            <li>
+                <span>NAME: e0889b54-e95a-46fc-a986-5ce337bf359c</span>
+                <span>TYPE: da1c300a-0e84-4a81-a1f4-64fbf8871c45</span>
+            </li>
+        </ol>
+
+        <!-- Älä koske alla olevaan lomakkeeseen, tutustumme 
+        tiedon lisäämiseen hieman myöhemmin -->
+        <h2>Add item</h2>
+
+        <form action="/" method="POST">
+            <span>Name:</span>
+            <input type="text" name="name"/>
+            <span>Type:</span>
+            <input type="text" name="type"/>
+            <input type="submit" value="Add!"/>
+        </form>
+    </body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-09-29 18:07:15.569  INFO 21136 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

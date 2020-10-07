@@ -21,6 +21,6 @@ public class HelloFormController {
     public String post(@RequestParam String content) {
         this.content = content;
         // opimme tämän "redirect:/"-loitsun merkityksen ihan kohta!
-        return "redirect:/";
+        return "redirect/:";
     }
 }

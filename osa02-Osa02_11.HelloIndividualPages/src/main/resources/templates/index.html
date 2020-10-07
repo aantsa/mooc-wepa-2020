@@ -9,7 +9,9 @@
 
         <ol>
             <li th:each="item: ${items}">
-                <a th:href="@{/{id}(id=${item.identifier})}" th:text="${item.name}">name</a> (<span th:text="${item.type}">type</span>)
+                <a th:href="@{/{id}(id=${item.identifier})}" th:text="${item.name}">
+                    name
+                </a> (<span th:text="${item.type}">type</span>)
             </li>
         </ol>
 

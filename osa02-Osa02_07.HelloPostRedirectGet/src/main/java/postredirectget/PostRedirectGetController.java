@@ -13,8 +13,19 @@ public class PostRedirectGetController {
 
     private List<String> list;
 
+    @GetMapping("/")
+    public String home(Model model) {
+        model.addAttribute("list", list);
+        return "index";
+    }
+
+    @PostMapping("/")
+    public String post(@RequestParam String data) {
+        list.add(data);
+        return "redirect:/";
+    }
+
     public PostRedirectGetController() {
         this.list = new ArrayList<>();
     }
-
 }
